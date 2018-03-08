@@ -2,7 +2,7 @@
 	"name": "distributedRiskBackend",
 	"version": "1.0.0",
 	"description": "security app back end",
-	"repository": "",
+	"repository": "https://github.com/jswiss/distributedRiskBackend",
 	"main": "index.js",
 	"engines": {
 		"node": ">= 8.4.0"
@@ -10,7 +10,8 @@
 	"scripts": {
 		"start": "node ./start.js",
 		"watch": "nodemon ./start.js --ignore public/",
-		"dev": "concurrently \"npm run watch\" \"npm run assets\" --names \"💻,📦\" --prefix name",
+		"dev":
+			"concurrently \"npm run watch\" \"npm run assets\" --names \"💻,📦\" --prefix name",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "joshua swiss",
